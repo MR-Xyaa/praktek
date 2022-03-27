@@ -32,13 +32,11 @@ function Percent(){
 
         #maka pernyataan akan di jalankan dari angka 1-100
 
-        while [ $i -le $0 ]; do
+        while [ $i -le $70 ]; do
 
             echo -ne "\r${G}[✓]${C} $message ${G}$i${D} %"
 
-            #jika i nilainya sama dengan 100 atau batas maksimal maka artinya metode / fungsi Perce             >
-
-            #Percent "Loading..." 100
+            #jika i nilainya sama dengan 100 atau batas maksimal maka artinya metode / fungsi Perce
 
             #akan terus di ulang
 
