@@ -42,7 +42,7 @@ function Percent(){
 
             #akan terus di ulang
 
-            if [ $i -eq 1000 ]; then
+            if [ $i -eq 500 ]; then
 
                 echo -ne "${G} [SELESAI!]${D}\n"
 
