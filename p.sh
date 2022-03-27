@@ -42,7 +42,7 @@ function Percent(){
 
             #akan terus di ulang
 
-            if [ $i -eq 500 ]; then
+            if [ $i -eq 100 ]; then
 
                 echo -ne "${G} [SELESAI!]${D}\n"
 
@@ -62,4 +62,4 @@ function Percent(){
 
 }
 
-Percent "Menginstall..." 100
+Percent "Menginstall KONTOL..." 100
