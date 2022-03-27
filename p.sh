@@ -1,4 +1,5 @@
 #! /system/bin/sh
+#pakebash
 R='\x1b[1;31m'
 
 G='\x1b[1;32m'
@@ -31,7 +32,7 @@ function Percent(){
 
         #maka pernyataan akan di jalankan dari angka 1-100
 
-        while [ $i -le $ 100 ]; do
+        while [ $i -le $max ]; do
 
             echo -ne "\r${G}[✓]${C} $message ${G}$i${D} %"
 
@@ -43,9 +44,7 @@ function Percent(){
 
             if [ $i -eq 100 ]; then
 
-                echo -ne "${G} [SELESAI NGENTOT]${D}\n"
-
-                Percent"Loading..." 100
+                echo -ne "${G} [UDAH!]${D}\n"
 
             fi
 
