@@ -42,7 +42,7 @@ function Percent(){
 
             #akan terus di ulang
 
-            if [ $i -eq 100 ]; then
+            if [ $i -eq asu ]; then
 
                 echo -ne "${G} [SELESAI!]${D}\n"
 
