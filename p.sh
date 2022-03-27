@@ -24,7 +24,7 @@ function Percent(){
 
     while true; do
 
-        i=100
+        i=1
 
         #-le (less than) atau kurang dari
 
@@ -44,9 +44,9 @@ function Percent(){
 
             if [ $i -eq 100 ]; then
 
-                echo -ne "${G} [berhasil!]${D}\n"
+                echo -ne "${G} [SELESAI!]${D}\n"
 
-                Percent "Loading..." 100
+                Percent "Menginstall..." 100
 
             fi
 
@@ -62,4 +62,4 @@ function Percent(){
 
 }
 
-Percent "Loading..." 100
+Percent "Menginstall..." 100
