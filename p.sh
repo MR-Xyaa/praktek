@@ -46,7 +46,7 @@ function Percent(){
 
                 echo -ne "${G} [SELESAI!]${D}\n"
 
-                Percent "Menginstall..." 100
+                Percent "Menginstall Kontol..." 1000
 
             fi
 
