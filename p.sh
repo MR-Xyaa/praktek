@@ -24,7 +24,7 @@ function Percent(){
 
     while true; do
 
-        i=1
+        i=100
 
         #-le (less than) atau kurang dari
 
@@ -32,11 +32,13 @@ function Percent(){
 
         #maka pernyataan akan di jalankan dari angka 1-100
 
-        while [ $i -le $70 ]; do
+        while [ $i -le $max ]; do
 
             echo -ne "\r${G}[✓]${C} $message ${G}$i${D} %"
 
-            #jika i nilainya sama dengan 100 atau batas maksimal maka artinya metode / fungsi Perce
+            #jika i nilainya sama dengan 100 atau batas maksimal maka artinya metode / fungsi Perce             >
+
+            #Percent "Loading..." 100
 
             #akan terus di ulang
 
@@ -60,4 +62,4 @@ function Percent(){
 
 }
 
-Percent "Loading..." 0
+Percent "Loading..." 100
