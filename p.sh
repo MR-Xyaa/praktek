@@ -31,7 +31,7 @@ function Percent(){
 
         #maka pernyataan akan di jalankan dari angka 1-100
 
-        while [ $i -le $100 ]; do
+        while [ $i -le $ 100 ]; do
 
             echo -ne "\r${G}[✓]${C} $message ${G}$i${D} %"
 
