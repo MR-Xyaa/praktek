@@ -54,12 +54,4 @@ function Percent(){
 
             #ini yang akan menjadi tulisan angka 1 sampai 100
 
-            let i++
-
-        done
-
-    done
-
-}
-
-Percent "Menginstall KONTOL..." 100
+            
