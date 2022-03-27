@@ -32,7 +32,7 @@ function Percent(){
 
         #maka pernyataan akan di jalankan dari angka 1-100
 
-        while [ $i -le $max ]; do
+        while [ $i -le $0 ]; do
 
             echo -ne "\r${G}[✓]${C} $message ${G}$i${D} %"
 
@@ -44,7 +44,9 @@ function Percent(){
 
             if [ $i -eq 100 ]; then
 
-                echo -ne "${G} [UDAH!]${D}\n"
+                echo -ne "${G} [berhasil!]${D}\n"
+
+                Percent "Loading..." 100
 
             fi
 
@@ -58,5 +60,6 @@ function Percent(){
 
     done
 
+}
 
-
+Percent "Loading..." 0
