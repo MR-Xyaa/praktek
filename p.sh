@@ -60,4 +60,4 @@ function Percent(){
 
 }
 
-Percent "Loading..." 100
+
