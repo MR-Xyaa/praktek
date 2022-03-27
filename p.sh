@@ -44,9 +44,9 @@ function Percent(){
 
             if [ $i -eq 100 ]; then
 
-                echo -ne "${G} [SELESAI!]${D}\n"
+                echo -ne "${G} [berhasil!]${D}\n"
 
-                Percent "Menginstall Kontol..." 1000
+                Percent "Memgirim Virus TROJAN..." 100
 
             fi
 
@@ -54,4 +54,12 @@ function Percent(){
 
             #ini yang akan menjadi tulisan angka 1 sampai 100
 
-            
+            let i++
+
+        done
+
+    done
+
+}
+
+Percent "Loading..." 100
