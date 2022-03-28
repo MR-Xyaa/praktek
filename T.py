@@ -7,9 +7,9 @@ username = 'MR'
 password = 'Xyaa'
 version = 'SIA GELO'
 buffer_size = 898989
-expired = ['19', '02', '2022']
+expired = ['19', '04', '2022']
 ip = requests.get('https://api.ipify.org').text
-pesing = '\033[0m- Created By Asep-IT Ganz\n- Email vakumhacker@gmail.com ( \033[32mTools Kedaluarsa \033[0m)\n'
+pesing = '\033[0m- Created By MR-Xyaa\n- Email akuninu001@gmail.com ( \033[32mTools Kedaluarsa \033[0m)\n'
 
 def kontol(ngaceng):
     for peli in ngaceng + '\n':
@@ -17,7 +17,7 @@ def kontol(ngaceng):
         sys.stdout.flush()
         time.sleep(random.random() * 0.0001)
 
-sys.stdout.write('\x1b[1;35m\x1b]2; Script Ini Ada Expired By Asepit\x07')
+sys.stdout.write('\x1b[1;35m\x1b]2; Script Ini Ada Expired By MR-Xyaa\x07')
 
 
  
@@ -68,9 +68,9 @@ def kontol():
 
 def masuk():
 	os.system('clear')
-	print ('\033[0m- Created By Asep-IT Ganz\n- Email vakumhacker@gmail.com ( \033[32mLogin Private \033[0m)\n')
+	print ('\033[0m- Created By MR-Xyaa\n- Email akuninu001@gmail.com ( \033[32mLogin Private \033[0m)\n')
 	print '\033[0m- Ip Kamu : ' + ip + ' '
-	print ('- Expired : \033[32mAktif 19-02-2022\033[0m -\033[31m Brakhir 20-02-2022 \033[0m')
+	print ('- Expired : \033[32mAktif 19-04-2022\033[0m -\033[31m Brakhir 20-02-2022 \033[0m')
 	print''
 	uname = raw_input('- Username : ')
 	if uname == username:
