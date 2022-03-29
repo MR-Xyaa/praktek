@@ -1,4 +1,6 @@
-install
+flask
 requests
-message
+googletrans
 wikipedia
+urbandict
+beautifulsoup4
